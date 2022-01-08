@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+    body {
+        background-image: url('../IMAGES/samantha\ yellow.jpg');
+        background-size: cover;
+    }
+
+    .navbar {
+        width: 14em;
+        height: auto;
+        margin: 4em auto 0;
+        font-size: 1em;
+        line-height: 2em;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -10em;
+    }
+
+    .navbar ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+
+    .navbar ul li {
+        display: block;
+        background-color: #333;
+        height: 2em;
+        padding: 1em 1.5em;
+        position: relative;
+        transition: transform .5s, background-color .5s, color .5s;
+    }
+
+    .navbar ul li:nth-child(1) {
+        background-color: #00aced;
+    }
+
+    .navbar ul li:nth-child(2) {
+        background-color: #3b5998;
+    }
+
+    .navbar ul li:nth-child(3) {
+        background-color: #00a300;
+    }
+
+    .navbar ul li:nth-child(4) {
+        background-color: #1e7145;
+        padding-left: 0px;
+    }
+
+    .navbar ul li:nth-child(5) {
+        background-color: #ffc40d;
+    }
+    .navbar ul li:nth-child(6){
+    background-color: #cb2027;
+}
+.navbar ul li:hover{
+    background-color: #339966;
+    transform: translateX(10em);
+}
+.navbar ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li span{
+    display: block;
+    position: absolute;
+    font-size: 1em;
+    line-height: 2em;
+    height: 2em;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    right: 0.1666666666667em;
+    color: #f8f6ff;
+}
+</style>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="_blank"><span>What to do?&emsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-map-marker"></i></span></a></li>
+            <li><a href=""><span>Where to go?&emsp;&nbsp;&nbsp;<i class="fa fa-compass"></i></span></a></li>
+            <li><a href=""><span>Services&emsp;&nbsp; <i class="fa fa-compass"></i></span></a></li>
+            <li><a href=""><span>Accomadation &nbsp;&nbsp;&nbsp;<i class="fa fa-bed"></i></span></a></li>
+            <li><a href=""><span>Free Time&emsp;&nbsp;&nbsp;<i class="fa fa-book"> </i></span></a></li>
+            <li><a href=""><span>Food & Drink&emsp;&nbsp; <i class="fa fa-beer"></i></span></a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
